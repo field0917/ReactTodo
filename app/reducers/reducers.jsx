@@ -28,7 +28,7 @@ export var todosReducer = (state = [], action) => {
           id: uuid(),
           text: action.text,
           completed: false,
-          createAt: moment().unix(),
+          createdAt: moment().unix(),
           completedAt: undefined
         }
       ];
