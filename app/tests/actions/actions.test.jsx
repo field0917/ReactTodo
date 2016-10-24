@@ -88,7 +88,7 @@ describe('Actions', () => {
 
     expect(res).toEqual(action);
   });
-
+  
   describe('Tests with firebase todos', () => {
     var testTodoRef;
     var uid;
